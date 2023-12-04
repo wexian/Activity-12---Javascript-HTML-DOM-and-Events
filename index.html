@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,19 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    
+
+<body class="container shadow p-5 mt-5 rounded">
+    <h1 class="display-2 fw-bold">To-do List</h1>
+    <p class="fs-5">Organize Your Tasks Effortlessly</p>
+    <div id="app">
+        <input type="text" id="todoInput" placeholder="Enter a task...">
+        <button id="addTask">Add Task</button>
+        <div class="container p-3 shadow rounded mt-3">
+            <ul id="taskList"></ul>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
+
 </html>
