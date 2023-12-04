@@ -6,7 +6,6 @@ addTask.addEventListener("click", function () {
   if (todoInput.value === "") {
     alert("Please enter a value for the task.");
   } else {
-    
     const listItem = document.createElement("li");
     const button = document.createElement("button");
     const todoTaskValue = document.createTextNode(todoInput.value);
